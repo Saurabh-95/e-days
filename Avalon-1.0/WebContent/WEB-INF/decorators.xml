@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="default" page="Layout.jsp">
+		<pattern>/Master/*</pattern>
+	</decorator>
+	<decorator name="default" page="Layout.jsp">
+		<pattern>/Master</pattern>
+	</decorator>
+	<decorator name="ajax" page="AjaxLayout.jsp">
+		<pattern>/Master/Ajax/*</pattern>
+	</decorator>
+</decorators>
